@@ -1,12 +1,13 @@
 ### miniforum BIOS Update Guide
 #### How to Update Firmware for Minisforum UM790pro & NPB7 in EFI shell<br>(no Windows install needed)
 
-**Note:** Updating the BIOS will restore the default factory state and will format all hard disks if RAID mode has been set in the BIOS.
-
 ---
 #### Requirements:
 - USB Stick (1GB+)
 - Files in this [repository](https://github.com/rezzorix/minisforum-bios-updates)
+
+#### Important Note:
+Updating the BIOS will restore the default factory state and will format all hard disks if RAID mode has been set in the BIOS.
 
 #### Step 1: Format USB Drive and Copy the BIOS Files
 - **Format USB drive** to FAT32 and rename it to `WINPE`
