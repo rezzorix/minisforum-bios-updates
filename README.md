@@ -72,6 +72,4 @@ Updating the BIOS will restore the default factory state and will format all har
 
 **Automatic shutdown and reboot will occur after the update is complete.**
 
----
 
-Replace `PLACEHOLDER_FOR_IMAGE_1`, `PLACEHOLDER_FOR_IMAGE_2`, `PLACEHOLDER_FOR_IMAGE_3`, and `PLACEHOLDER_FOR_IMAGE_4` with the actual base64-encoded images or image URLs. If you need the actual base64 data for the images, you would need to convert the images from the PDF to base64 format.
