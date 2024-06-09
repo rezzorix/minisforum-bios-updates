@@ -73,5 +73,6 @@ Updating the BIOS will restore the default factory state and will format all har
 </div>
 
 **Automatic shutdown and reboot will occur after the update is complete.**
+**Give the system time to reboot - it might take a bit longer than usual for the first time.**
 
 
