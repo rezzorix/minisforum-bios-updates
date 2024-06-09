@@ -22,7 +22,7 @@
 
 #### Step 2: Unzip and Copy BIOS Files to USB Drive
 - Copy the directory "EFI" and its contents to the root directory of the USB drive
-- Copy the directory containing the BIOS (all or only the one needed) root directory of the USB drive.
+- Copy the directory containing the BIOS (all or only the one needed) to the root directory of the USB drive.
 
 #### Step 3: Boot into BIOS and Turn Off Secure Boot
 - Press the `Delete` key at boot to enter BIOS.
