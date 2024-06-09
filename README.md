@@ -1,2 +1,2 @@
 # minisforum
-Firmware updates minisforum UM790pro &amp; NPB7
+HOW-TO Firmware updates minisforum UM790pro &amp; NPB7
