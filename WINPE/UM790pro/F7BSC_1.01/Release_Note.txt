@@ -1,0 +1,155 @@
+*****************************************
+*          BIOS Release Notice             *    
+*****************************************
+Release Date:
+    2023/06/05
+
+BIOS Version:
+    1.00
+
+BIOS Checksum:
+    86b4
+
+BIOS Description:
+     1.Update EC FW 2.04 to fixup AC power loss issue
+     2.Rollback pi 1000e 
+     3.Fixup can't display in setup by TYPEC LCD
+     4.Update Gop Version 3.7.9 
+-----------------------------------------------------------------
+Release Date:
+    2023/05/29
+
+BIOS Version:
+    0.09
+
+BIOS Checksum:
+    f808
+
+BIOS Description:
+     1.Update EC FW 2.02
+     2.Update AMD PI 1g
+     3.hidden [ Setup Prompt Timeout ][Bootup Numlock State][Quiet Boot]
+     4.Add [PowerLimit Setting] in advance power setting
+==============================================     
+Release Date:
+    2023/05/18
+
+BIOS Version:
+    0.08
+
+BIOS Checksum:
+    0b23
+
+BIOS Description:
+     1.Update EC FW 1.07
+     2.Set power limit by EC detect adapter
+     3.fixup not display post logo by TYPEC monitor
+==============================================
+
+Release Date:
+    2023/05/12
+
+BIOS Version:
+    0.07
+
+BIOS Checksum:
+    42cc
+
+BIOS Description:
+     1.Update EC FW 1.02
+     2.Fixup auto wakeup if disconnect usb devcie in MS
+     3.Remove display cursor at post
+     4.Add new power setting 
+     5.Add nvme ssd raid and IOMMU item in BIOS setup 
+     6.Grayout if user password set if not admin password not be set
+==============================================
+
+Release Date:
+    2023/05/08
+
+BIOS Version:
+    0.06
+
+BIOS Checksum:
+    F520
+
+BIOS Description:
+     1.Add EC 5571 support
+     2.add pcie aspm L1 support
+==============================
+
+Release Date:
+    2023/04/24
+
+BIOS Version:
+    0.05
+
+BIOS Checksum:
+    AE46
+
+BIOS Description:
+     1.update Upate PI1.0.0.1e
+==============================
+Release Date:
+    2023/04/13
+
+BIOS Version:
+    0.04
+
+BIOS Checksum:
+    04B3
+
+BIOS Description:
+     1.Fixup UMA 512M show 448M issue
+     2.Set system fan pwm to 95 
+     3.Fixup ACPI error when install Ubuntu
+     4.Fixup IO systen fan not off in MS
+==============================
+
+Release Date:
+    2023/03/31
+
+BIOS Version:
+    0.03
+
+BIOS Checksum:
+    955C
+
+BIOS Description:
+     1.Upate PI1.0.0.1c
+     2.Remove boot option disable 
+     3.Set audio oem ssid
+     4.Fixup ssd loss issue after resume from MS
+     5.Fixup uma size auto can't enter OS
+     6.Fixup install Linuxe ACPI Method AFN7 error
+     7.Fixup some wifi can't detect 
+==============================
+
+Release Date:
+    2023/03/16
+
+BIOS Version:
+    0.02
+
+BIOS Checksum:
+    37B7
+
+BIOS Description:
+     1.Ajust setup item follow bios spec
+     2.Fixup wake up  control fail by WOL item
+     3.Disable memory throttle 
+     4.Fixup usb wakeup issue
+     5.Fixup audio disable fail by setup item
+     6.Fixup AC power loss always on issue
+==============================
+Release Date:
+    2023/03/10
+
+BIOS Version:
+    0.01
+
+BIOS Checksum:
+    D0D5
+
+BIOS Description:
+     1.power on test

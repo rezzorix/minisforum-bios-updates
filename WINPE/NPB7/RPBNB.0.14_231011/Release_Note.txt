@@ -1,0 +1,189 @@
+==========
+Release Date:
+	2023/10/11
+BIOS Version:
+	0.14
+BIOS Checksum:
+	5F54
+BIOS Description:
+1.The BIOS supports setting the number of P-cores and E-cores in each processor package
+2.1 second delay to fix the issue that some monitor does not display the LOGO when the S4/S5 resumes after the monitor goes to sleep
+3.Adds miniforum's Secure Boot Variables
+4.The MG LOGO is shown in 1080P
+==========
+Release Date:
+	2023/07/21
+BIOS Version:
+	0.13
+BIOS Description:
+1.Disable M.2 PCI Express ASPM
+===========
+==========
+Release Date:
+	2023/06/30
+BIOS Version:
+	0.12
+BIOS Description:
+1.Minor version uses two digit lengths
+2.When user privileges, some menu are hidden
+3.The password of user can be set only after the password of admin is set
+4.Disables checkpoint display
+5.DnX disabled
+===========
+==========
+Release Date:
+	2023/06/26
+BIOS Version:
+	0.11
+BIOS Description:
+1.Visibility of the "Maximum Memory Frequency" setup item
+===========
+==========
+Release Date:
+	2023/06/21
+BIOS Version:
+	0.10
+BIOS Description:
+1.Upgrade the GOP version to 21.0.1065
+2.Visibility "TPM" formset
+3.Visibility "Turbo Ratio Limit Options" formset
+4.Visibility of the "SR-IOV Support" setup item
+5.Preserve SMBIOS persistent variables during NVRAM reset
+===========
+==========
+Release Date:
+	2023/05/29
+BIOS Version:
+	0.09
+BIOS Description:
+1.PL4 is set to 135W
+===========
+==========
+Release Date:
+	2023/05/10
+BIOS Version:
+	0.08
+BIOS Description:
+1.Smart Fan
+     Fan2 Manual PWM setting：150
+===========
+==========
+Release Date:
+	2023/03/09
+BIOS Version:
+	0.07
+BIOS Description:
+1.Restore the GOP version to 21.0.1056
+2.Fixed KTC monitor compatibility issues
+3.VT-d is set to disabled
+===========
+==========
+Release Date:
+	2023/03/02
+BIOS Version:
+	0.06
+BIOS Description:
+1.Upgrade the GOP version to 21.0.1061
+2.Modify DMI information
+===========
+==========
+Release Date:
+	2023/02/10
+BIOS Version:
+	0.05
+BIOS Description:
+1.Smart Fan
+     Fan1 PWM automatic setting （i5 & i7 cpu 1.5 PWM , other  1.0 PWM）
+2.Install factory default Secure Boot keys
+===========
+==========
+Release Date:
+	2023/02/01
+BIOS Version:
+	0.04
+BIOS Description:
+1.Smart Fan
+     Fan1 PWM automatic setting （i5 cpu 1.5 PWM , other  1.0 PWM）
+2.Secure Boot:Enabled
+3.Use Corporate ME(16.1.25.2049), because the consumer ME will cause abnormal warm reset
+4.Disable Intel ® AMT
+5.Remove SIO's EuP function
+6.The PLED is controlled only in the S3 state
+===========
+==========
+Release Date:
+	2022/12/21
+BIOS Version:
+	0.03
+BIOS Description:
+1.Smart Fan
+     Fan1 Full:96
+     Fan1 Smoothing:62
+2.Power:
+   Tcc offset:9
+3.ME:
+   USB3Port4:USB 3.1 Gen2
+   Adjust GPIO VCCIO Voltage
+4.Fixed the BIOS version error in the system
+5.Try to fix the desktop extension failure
+6. Display Secure Boot menu and disable secure boot
+===========
+==========
+Release Date:
+	2022/12/14
+BIOS Version:
+	0.02
+BIOS Description:
+1.Smart Fan
+   Fan1:1.0 PWM
+2.Fan1 PWM is set to 48 when power on（It's about 18,00 RPM）
+3.Fan support Smoothing control
+===========
+==========
+Release Date:
+	2022/12/12
+BIOS Version:
+	0.01
+BIOS Description:
+1.Disable ShellBin support
+2.Smart Fan
+   Fan1:1.5 PWM
+3.Adjust the setup page layout
+4.Resolved type-c does not remove icon in win11 system
+5.ME:
+   SpiOverTpmBusEnable:No
+   USB3Port4:USB 3.1 Gen1
+===========
+==========
+Release Date:
+	2022/12/02
+BIOS Version:
+	1.00
+BIOS Description:
+1.Update ME FW version to 16.1.25.2049
+2.Smart Fan
+   Fan1:
+     Fan off:30
+     Fan Start:35
+     Fan Full:94
+     Fan start PWM:40
+     Fan slope:1 PWM
+     Support slope 1.5 PWM setting
+   Fan2:
+     Manual PWM Setting:80
+     Support slope 1.5 PWM setting
+3.Power:
+   PL2:95w
+   Tcc offset:6
+4.New OEM VerbTable
+5.Check the BIOS by referring to the TCSS BIOS Checklist
+
+===========
+==========
+Release Date:
+	2022/11/30
+BIOS Version:
+	1.00
+BIOS Description:
+1.First release BIOS
+===========

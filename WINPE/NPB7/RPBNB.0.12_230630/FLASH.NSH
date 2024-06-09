@@ -1,0 +1,1 @@
+Fpt.efi -f RPBNB.0.12.bin

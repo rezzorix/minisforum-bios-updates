@@ -1,0 +1,286 @@
+*****************************************
+*          BIOS Release Notice          *    
+*****************************************
+Release Date:
+    2023/11/20
+
+BIOS Version:
+    1.09
+
+BIOS Checksum:
+    84f7
+
+BIOS Description:
+     1.Update PI  1.1.0.1a
+     2.Add UMA size of 16G selection 
+     3.Fixup 5200 memory Can't use issue
+     4.Fixup IPU item control fail after PI  1.1.0.1a
+----------------------------------------------------------------- 
+
+Release Date:
+    2023/10/23
+
+BIOS Version:
+    1.08
+
+BIOS Checksum:
+    8D68
+
+BIOS Description:
+     1.Update pi 1.0.0.2b
+     2.Add gpio155 to detect RTL269 VC3 verbtable 
+     3.Disable audio ms wake 
+     4.Add Minisforum secure boot key
+     5.Add new logo to fixup splash screen issue when win11 recovery
+     6.Deepen setup selected background bar
+-----------------------------------------------------------------  
+
+Release Date:
+    2023/09/01
+
+BIOS Version:
+    1.07
+
+BIOS Checksum:
+    8209
+
+BIOS Description:
+     1.Update GOP 3.8.3
+     2.Fixup MS auto wakeup if WOL dis
+     3.Fixup UMA size to small in auto mode    
+     4.Fixup DMI can't write after enable secure flash
+     5.Fixup wifi is removeable device after update PI 1.0.0.2
+     6.Rollback PI 1g mem FW to fixup reboot issue if play vedio with 8K/4K 144HZ LCD after update PI 1.0.0.2 
+     7.Fixup S4 hang Post logo if connect 4 LCD to display after update PI 1.0.0.2 
+     8.Add IPU contol item
+     9.Set system model to Venus series
+     10.remove performance mode for 7640
+-----------------------------------------------------------------  
+
+
+Release Date:
+    2023/08/03
+
+BIOS Version:
+    1.06
+
+BIOS Checksum:
+    BC25
+
+BIOS Description:
+     1.Update PI 1.0.0.2
+     2.Disable IPU
+     3.update raid rom to 9.3.2.203
+     4.Add 8g/16G UMA select in setup
+     5.Add support multi language
+     6.Add secure flash support     
+-----------------------------------------------------------------  
+
+Release Date:
+    2023/07/17
+
+BIOS Version:
+    1.05
+
+BIOS Checksum:
+    395A
+
+BIOS Description:
+     1.Update PI 1.0.0.2
+     2.Add 1080p post logo
+-----------------------------------------------------------------  
+
+Release Date:
+    2023/07/07
+
+BIOS Version:
+    1.04
+
+BIOS Checksum:
+    7022
+
+BIOS Description:
+     1.Disable ASPM to improve SSD compatibility
+     2.Add show TPM item in setup
+     3.Set AC power loss default to off
+     4.upate fixed boot order to version 26
+-----------------------------------------------------------------  
+
+Release Date:
+    2023/06/29
+
+BIOS Version:
+    1.03
+
+BIOS Checksum:
+    1984
+
+BIOS Description:
+     1.Fixup OA3 key inject time too long
+     2.Remove PD re-connect cmd
+-----------------------------------------------------------------  
+Release Date:
+    2023/06/19
+
+BIOS Version:
+    1.02
+
+BIOS Checksum:
+    CC4E
+
+BIOS Description:
+     1.Fxiup black screen if input error password three times
+     2.Fixup DMI be cleared if clear CMOS 
+-----------------------------------------------------------------     
+Release Date:
+    2023/06/05
+
+BIOS Version:
+    1.00
+
+BIOS Checksum:
+    86b4
+
+BIOS Description:
+     1.Update EC FW 2.04 to fixup AC power loss issue
+     2.Rollback pi 1000e 
+     3.Fixup can't display in setup by TYPEC LCD
+     4.Update Gop Version 3.7.9 
+-----------------------------------------------------------------
+Release Date:
+    2023/05/29
+
+BIOS Version:
+    0.09
+
+BIOS Checksum:
+    f808
+
+BIOS Description:
+     1.Update EC FW 2.02
+     2.Update AMD PI 1g
+     3.hidden [ Setup Prompt Timeout ][Bootup Numlock State][Quiet Boot]
+     4.Add [PowerLimit Setting] in advance power setting
+==============================================     
+Release Date:
+    2023/05/18
+
+BIOS Version:
+    0.08
+
+BIOS Checksum:
+    0b23
+
+BIOS Description:
+     1.Update EC FW 1.07
+     2.Set power limit by EC detect adapter
+     3.fixup not display post logo by TYPEC monitor
+==============================================
+
+Release Date:
+    2023/05/12
+
+BIOS Version:
+    0.07
+
+BIOS Checksum:
+    42cc
+
+BIOS Description:
+     1.Update EC FW 1.02
+     2.Fixup auto wakeup if disconnect usb devcie in MS
+     3.Remove display cursor at post
+     4.Add new power setting 
+     5.Add nvme ssd raid and IOMMU item in BIOS setup 
+     6.Grayout if user password set if not admin password not be set
+==============================================
+
+Release Date:
+    2023/05/08
+
+BIOS Version:
+    0.06
+
+BIOS Checksum:
+    F520
+
+BIOS Description:
+     1.Add EC 5571 support
+     2.add pcie aspm L1 support
+==============================
+
+Release Date:
+    2023/04/24
+
+BIOS Version:
+    0.05
+
+BIOS Checksum:
+    AE46
+
+BIOS Description:
+     1.update Upate PI1.0.0.1e
+==============================
+Release Date:
+    2023/04/13
+
+BIOS Version:
+    0.04
+
+BIOS Checksum:
+    04B3
+
+BIOS Description:
+     1.Fixup UMA 512M show 448M issue
+     2.Set system fan pwm to 95 
+     3.Fixup ACPI error when install Ubuntu
+     4.Fixup IO systen fan not off in MS
+==============================
+
+Release Date:
+    2023/03/31
+
+BIOS Version:
+    0.03
+
+BIOS Checksum:
+    955C
+
+BIOS Description:
+     1.Upate PI1.0.0.1c
+     2.Remove boot option disable 
+     3.Set audio oem ssid
+     4.Fixup ssd loss issue after resume from MS
+     5.Fixup uma size auto can't enter OS
+     6.Fixup install Linuxe ACPI Method AFN7 error
+     7.Fixup some wifi can't detect 
+==============================
+
+Release Date:
+    2023/03/16
+
+BIOS Version:
+    0.02
+
+BIOS Checksum:
+    37B7
+
+BIOS Description:
+     1.Ajust setup item follow bios spec
+     2.Fixup wake up  control fail by WOL item
+     3.Disable memory throttle 
+     4.Fixup usb wakeup issue
+     5.Fixup audio disable fail by setup item
+     6.Fixup AC power loss always on issue
+==============================
+Release Date:
+    2023/03/10
+
+BIOS Version:
+    0.01
+
+BIOS Checksum:
+    D0D5
+
+BIOS Description:
+     1.power on test

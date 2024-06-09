@@ -1,0 +1,2 @@
+Select [FWIN.bat], right-click and run as administrator.
+选中[FWIN.bat]单击右键以管理员身份运行.
