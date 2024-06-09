@@ -6,7 +6,7 @@ The firmware update process is similar for other minisforum mini PC series and m
 ---
 #### Requirements:
 - USB Stick (1GB+)
-- Files in this [repository](https://github.com/rezzorix/minisforum-bios-updates)
+- Files in this [repository](https://github.com/rezzorix/minisforum-bios-updates) (and/or BIOS on the [official website](https://minisforum.com/new/support?lang=en#/))
 
 #### Important Note:
 Updating the BIOS will restore the default factory state and will format all hard disks if RAID mode has been set in the BIOS.
