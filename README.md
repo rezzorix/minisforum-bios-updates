@@ -1,7 +1,7 @@
 ### miniforum BIOS Update Guide
 #### How to Update Firmware for Minisforum UM790pro & NPB7 in EFI shell<br>(no Windows install needed)
 
-The following firmware update process is similar for other Minisforum mini PC series and might be applicable to them as well.
+The firmware update process is similar for other Minisforum mini PC series and may apply to them as well.
 
 ---
 #### Requirements:
