@@ -1,0 +1,19 @@
+!!!Warning!!! Do not turn off the power when flashing!!!!!!!!!!!!
+This is a non-public beta BIOS. For testing purposes only, please do not disclose it to others.
+
+
+Universal BIOS FLASH.
+
+A. Windows 
+
+1. Disable "secure boot" in BIOS
+2. Run as administrator run "AfuWinFlash.bat"
+
+
+B. In BIOS UEFI SHELL
+
+1. Unzip file to root of FAT32 format disk.
+2. Disable "secure boot" in BIOS
+3. Boot into U disk, with uefi shell(F7 to choose boot disk)
+3. Use "FS1:" "FS2:" to find your BIOS udisk. (you can use command "ls" to check files exists)
+4. Run AfuEfiFlash.nsh.

@@ -1,0 +1,388 @@
+*****************************************
+*          BIOS Release Notice          *    
+*****************************************
+Release Date:
+    2025/04/03
+
+BIOS Version:
+    1.27
+
+BIOS Checksum:
+    4CE9
+
+BIOS Description:
+    1.Add Turbo Ratio Limit Options form
+    2.BIOS disables the execution of the UEFI storage Option ROM  by default
+    3.The PCIE SLOT supports speed control
+    4.Set PL1 to 55W and PL2 to 80W for the 12800H
+    5.Set PL1 to 60W and PL2 to 80W for the 270H
+    6.Update GOP version to 21.0.1066
+-----------------------------------------------------------------
+Release Date:
+    2024/10/14
+
+BIOS Version:
+    1.26
+
+BIOS Checksum:
+    91A0
+
+BIOS Description:
+    1.Update microcode
+    2.C-State  is supported
+-----------------------------------------------------------------
+Release Date:
+    2024/09/19
+
+BIOS Version:
+    1.25
+
+BIOS Checksum:
+    E8A2
+
+BIOS Description:
+    1.PCIE Aspm is not supported
+    2.RTD3  is not supported
+    3.C-State  is not supported
+-----------------------------------------------------------------
+Release Date:
+    2024/07/05
+
+BIOS Version:
+    1.24
+
+BIOS Checksum:
+    4018
+
+BIOS Description:
+    1.The GPP_D1 level state to control ALC269Q-VB6-CG or ALC269Q-VC3-GR Verb Table is installed
+-----------------------------------------------------------------
+Release Date:
+    2024/04/12
+
+BIOS Version:
+    1.23
+
+BIOS Checksum:
+    B8D0
+
+BIOS Description:
+    1. Correcting temperature display anomalies
+-----------------------------------------------------------------
+Release Date:
+    2024/03/12
+
+BIOS Version:
+    1.22
+
+BIOS Checksum:
+    DADF
+
+BIOS Description:
+    1.Set 55w as pl1 default value
+-----------------------------------------------------------------
+Release Date:
+    2024/03/06
+
+BIOS Version:
+    1.21
+
+BIOS Checksum:
+    47D7
+
+BIOS Description:
+    1.add pl1/pl2 for 12600H
+-----------------------------------------------------------------
+Release Date:
+    2024/02/23
+
+BIOS Version:
+    1.20
+
+BIOS Checksum:
+    E909
+
+BIOS Description:
+    1.modify logo&dmi
+-----------------------------------------------------------------
+Release Date:
+    2023/12/14
+
+BIOS Version:
+    1.17
+
+BIOS Checksum:
+    3A24
+
+BIOS Description:
+    1.add pcie detect time
+    2.disable pice port5&9 l1 sub
+    3.disable pcie port5&9 l1 low
+-----------------------------------------------------------------
+Release Date:
+    2023/12/05
+
+BIOS Version:
+    1.16
+
+BIOS Checksum:
+    6B7A
+
+BIOS Description:
+    1.Hidden fast boot
+	2.ADD F1 hot key for general help info
+	3.Clear user pw with admin pw
+	4.modify boot option
+-----------------------------------------------------------------
+Release Date:
+    2023/12/03
+
+BIOS Version:
+    1.0F
+
+BIOS Checksum:
+    FF2A
+
+BIOS Description:
+    1.Modify ME KVM Setting
+-----------------------------------------------------------------
+Release Date:
+    2023/12/01
+
+BIOS Version:
+    1.0F
+
+BIOS Checksum:
+    190A
+
+BIOS Description:
+    1.ADD cpu power limit
+	2.add cnvi&pcie wifi control item
+-----------------------------------------------------------------
+Release Date:
+    2023/11/24
+
+BIOS Version:
+    1.0E
+
+BIOS Checksum:
+    8007
+
+BIOS Description:
+    1.Fix the issue of TypeC connected to 5k monitor not display
+    2.Fix blue screen issue with installing chipset driver
+    3.Update GOP to Ver:1065
+-----------------------------------------------------------------
+Release Date:
+    2023/11/16
+
+BIOS Version:
+    1.0D
+
+BIOS Checksum:
+    795F
+
+BIOS Description:
+     1. add delay time before post logo
+     2. Enable native pcie & fix s3 stress issue
+     3. fix up lan wake issue
+     4. Enable me kvm supported
+
+-----------------------------------------------------------------
+Release Date:
+    2023/11/06
+
+BIOS Version:
+    1.0C
+
+BIOS Checksum:
+    CA3E
+
+BIOS Description:
+     1. add delay time before post logo
+     2. disable native pcie to fixed s3 stress issue
+
+-----------------------------------------------------------------
+Release Date:
+    2023/10/25
+
+BIOS Version:
+    1.0A
+
+BIOS Checksum:
+    5922
+
+BIOS Description:
+     1. Restore CLK6&SA CLK2 MESSAGING Settings
+     2. add delay time before post logo
+
+-----------------------------------------------------------------
+Release Date:
+    2023/10/24
+
+BIOS Version:
+    1.09
+
+BIOS Checksum:
+    3939
+
+BIOS Description:
+     1. Restore GOP to ver1065
+     2. Disable USB off load
+
+-----------------------------------------------------------------
+Release Date:
+    2023/10/23
+
+BIOS Version:
+    1.07
+
+BIOS Checksum:
+    F4FC
+
+BIOS Description:
+     1. Update GOP to 1065
+     2. PCH State after G3 set s5 as default
+     3. Hide some items according to BIOS SPEC 2.1
+     4. fixed fan full speed issue
+
+-----------------------------------------------------------------
+Release Date:
+    2023/10/23
+
+BIOS Version:
+    1.06
+
+BIOS Checksum:
+    CF63
+
+BIOS Description:
+     1. Update GOP to 1065
+     2. PCH State after G3 set s5 as default
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/10/18
+
+BIOS Version:
+    1.03
+
+BIOS Checksum:
+    9dda
+
+BIOS Description:
+     1. Modify setup items according to BIOS SPEC 2.1
+	 2. Adjust CLKREQ mapping table.
+	 3. Defaultly disalbe CLK_REQ_MSG of SA PCIE port 3
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/10/17
+
+BIOS Version:
+    1.02
+
+BIOS Checksum:
+    6583
+
+BIOS Description:
+     1. Switch off ASPM of PCIE x8 port.
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/10/13
+
+BIOS Version:
+    1.01
+
+BIOS Checksum:
+    8b1f
+
+BIOS Description:
+     1. Update PCI subsystem ID for Audio.
+     2. Support RTC wake in S4.
+     3. Fix the AC loss resume function.
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/10/11
+
+BIOS Version:
+    1.0
+
+BIOS Checksum:
+    a613
+
+BIOS Description:
+     1. Add GUI for BIOS setup.
+     2. Change new logo.
+     3. Add deep S5 option for ERP testing.
+     4. Add "Dynamic power mode" function to change power limit while dGPU connnecting or disconnecting.
+     5. Modify the default value of PCIE ASPM.
+     6. Adjust some BIOS setup items.
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/10/08
+
+BIOS Version:
+    0.0E
+
+BIOS Checksum:
+    0cad
+
+BIOS Description:
+     1. Add patch to fix the issue that it will hang while connecting some monitors by HDMI.
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/10/07
+
+BIOS Version:
+    0.0D
+
+BIOS Checksum:
+    4ac3
+
+BIOS Description:
+     1. Modify Intel Ethernet vPro configuration.
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/10/07
+
+BIOS Version:
+    0.0C
+
+BIOS Checksum:
+    b955
+
+BIOS Description:
+     1. Fix the issue that it cannot be waked up in S3 by USB devices.
+     2. Modify PL1/PL2/PL1 time window/PWM3 to 60W/80W/40s/150.
+     3. Add "Addons" menu in BIOS setup, in order to show RAID settings while VMD enabled.
+
+-----------------------------------------------------------------
+
+Release Date:
+    2023/09/28
+
+BIOS Version:
+    0.0B
+
+BIOS Checksum:
+    3396
+
+BIOS Description:
+     1. Add a patch to fix the issue that USB3.0 device cannot be recognized in port 3 by limiting the speed to gen1.
+     2. Show CPU configuration menu.
+     3. Show PCI express configuration menu.
+     4. Show VMD setup menu and raid settings.
+     5. VRAM size can be modified in setup menu.

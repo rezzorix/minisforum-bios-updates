@@ -1,0 +1,28 @@
+This BIOS Improved stability.
+If you have had problems with crashes, restarts, and hangs before, you can flash this BIOS.
+If your problem still happens. 
+1. You may need downgrade memory speed to 4400.
+	There have a menu in Onboard Devices Setting.
+
+	This BIOS will take more idle power consumption.
+	Linux: 14.5W-> 17.5W
+	Windows: 14.5W -> 22W
+	(Data tested with 32G 5200Mhz RAM x 2 and 1xPCIE4.0 SSD)
+
+（Recommend)
+2. Disable Overclocking Lock:  Advaned -> CPU configuation ->Overclocking Lock:[ Disable]    
+Reduce the maximum CPU frequency: 
+ Advaned -> CPU configuation ->Turbo Ratio Limit Options.
+P-Core Trubo Ratio Limit Ratio0: 51
+P-Core Turbo Ratio Limit Ratio1: 51
+E-Core Trubo Ratio Limit Ratio0: 40
+E-Core Turbo Ratio Limit Ratio1: 40
+E-Core Turbo Ratio Limit Ratio2: 40
+E-Core Turbo Ratio Limit Ratio3: 40
+Save and reboot enter into BIOS. Advaned -> CPU configuation ->Turbo Ratio Limit Options. Check is it max frequency has been reduced.
+
+Reboot into System. Try is it more stable. 
+
+
+
+If all of this cannot solve problem, you may need do a request RMA.
